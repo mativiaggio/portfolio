@@ -22,28 +22,28 @@ export function HomeDock() {
     {
       title: "Inicio",
       icon: (
-        <House className="h-full w-full text-neutral-500 dark:text-red-400" />
+        <House className="h-full w-full text-neutral-500 dark:text-blue-500" />
       ),
       href: "#",
     },
     {
       title: "Experiencia",
       icon: (
-        <ChartGantt className="h-full w-full text-neutral-500 dark:text-red-400" />
+        <ChartGantt className="h-full w-full text-neutral-500 dark:text-blue-500" />
       ),
       href: "#experiencia-laboral",
     },
     {
       title: "Acerca de mí",
       icon: (
-        <BadgeInfo className="h-full w-full text-neutral-500 dark:text-red-400" />
+        <BadgeInfo className="h-full w-full text-neutral-500 dark:text-blue-500" />
       ),
       href: "#",
     },
     {
       title: "Contacto",
       icon: (
-        <MessageCircle className="h-full w-full text-neutral-500 dark:text-red-400" />
+        <MessageCircle className="h-full w-full text-neutral-500 dark:text-blue-500" />
       ),
       href: "#",
     },

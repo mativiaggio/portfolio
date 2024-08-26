@@ -60,6 +60,7 @@ const config = {
         home: {
           dark: "#131313",
           "dark-200": "#0a0a0a",
+          blue: "#030164",
         },
       },
       borderRadius: {

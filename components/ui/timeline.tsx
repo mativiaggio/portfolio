@@ -36,13 +36,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     <div
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Changelog from my journey
+      <div className="max-w-full md:max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-2xl md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+          Work experience
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+        <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-base max-w-full md:max-w-lg">
+          I started my journey in web development in 2022 by creating static web
+          pages as a personal hobby. Over time, I found that I really enjoyed
+          bringing ideas to life on the web. This led me to begin working as a
+          full-time web developer while continuing my college studies. Now, in
+          addition to my full-time role and pursuing my degree, I also take on
+          freelance projects during my limited free time, continually expanding
+          my experience and skills.
         </p>
       </div>
 
@@ -78,7 +83,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-red-500 via-pink-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-home-blue via-blue-700 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>

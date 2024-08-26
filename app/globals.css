@@ -67,6 +67,11 @@
     @apply bg-background text-foreground;
   }
 
+  * {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
   ::selection {
     background-color: #c82333; /* Color de fondo de la selección */
     color: #fff; /* Color del texto seleccionado */
