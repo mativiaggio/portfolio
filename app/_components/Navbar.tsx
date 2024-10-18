@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/sheet";
 import { CodeXml } from "lucide-react";
 import Link from "next/link";
-import { NavbarItemsMobile } from "./NavbarItems";
+import { NavbarItems, NavbarItemsMobile } from "./NavbarItems";
 import NavbarMenuButton from "./NavbarMenuButton";
 
 const Navbar: React.FC = () => {
@@ -23,6 +23,7 @@ const Navbar: React.FC = () => {
                 Matías Viaggio
               </span>
             </Link>
+            <NavbarItems className="hidden lg:flex" />
           </div>
         </div>
         <Sheet>
