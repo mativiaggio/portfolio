@@ -23,17 +23,17 @@ import {
 const portfolioItems: { title: string; href: string; description: string }[] = [
   {
     title: "Professional work",
-    href: "/portfolio/work/professional",
+    href: "/portfolio/professional-work",
     description: "",
   },
   {
     title: "Volunteer work",
-    href: "/portfolio/work/volunteer",
+    href: "/portfolio/volunteer-work",
     description: "",
   },
   {
     title: "Hobbies work",
-    href: "/portfolio/work/hobbie",
+    href: "/portfolio/hobbie-work",
     description: "",
   },
 ];

@@ -71,7 +71,7 @@ const Certificate = (item: Certifications) => {
               </div>
             </div>
           </div>
-          <div className="mt-8 p-4 bg-blue-50 rounded-lg">
+          <div className="mt-8 p-4 bg-workspace-primary rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               Course Description
             </h3>
@@ -84,17 +84,12 @@ const Certificate = (item: Certifications) => {
           </div>
           <div className="flex gap-2 w-full justify-center pt-6">
             <Link href={item.link}>
-              <Button
-                className="bg-blue-100 hover:bg-blue-200 text-blue-800 hover:text-blue-800"
-                variant="outline"
-                size="sm">
+              <Button variant="outline" size="sm">
                 <ExternalLinkIcon className="mr-2 h-4 w-4" />
                 Verify
               </Button>
             </Link>
-            <Button
-              size="sm"
-              className="bg-blue-800 hover:bg-blue-700 text-blue-100">
+            <Button size="sm" className="bg-workspace-accent">
               <DownloadIcon className="mr-2 h-4 w-4" />
               Download
             </Button>

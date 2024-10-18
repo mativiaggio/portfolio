@@ -214,3 +214,55 @@ export const cybersecurityCertifications: Certifications[] = [
     link: "https://www.educacionit.com/perfil/matias-viaggio-1024948/certificado/71597",
   },
 ];
+
+export interface Projects {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  githubLink: string;
+  liveLink: string;
+}
+
+export const projects: Projects[] = [
+  {
+    id: 1,
+    title: "E-commerce Platform",
+    description:
+      "A full-stack e-commerce solution with React, Node.js, and MongoDB.",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    githubLink: "https://github.com/yourusername/ecommerce-platform",
+    liveLink: "https://ecommerce-platform-demo.com",
+  },
+  {
+    id: 2,
+    title: "AI Image Generator",
+    description: "An AI-powered image generation tool using GANs and PyTorch.",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["Python", "PyTorch", "GANs", "Flask"],
+    githubLink: "https://github.com/yourusername/ai-image-generator",
+    liveLink: "https://ai-image-gen-demo.com",
+  },
+  {
+    id: 3,
+    title: "Task Management App",
+    description:
+      "A responsive task management application built with Vue.js and Firebase.",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["Vue.js", "Firebase", "Vuex", "Tailwind CSS"],
+    githubLink: "https://github.com/yourusername/task-management-app",
+    liveLink: "https://task-app-demo.com",
+  },
+  {
+    id: 4,
+    title: "Weather Forecast Dashboard",
+    description:
+      "A real-time weather forecast dashboard using React and OpenWeatherMap API.",
+    image: "/placeholder.svg?height=200&width=300",
+    tags: ["React", "Redux", "OpenWeatherMap API", "Chart.js"],
+    githubLink: "https://github.com/yourusername/weather-dashboard",
+    liveLink: "https://weather-dashboard-demo.com",
+  },
+];

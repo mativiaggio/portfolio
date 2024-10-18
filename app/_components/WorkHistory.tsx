@@ -67,7 +67,7 @@ const WorkHistory = () => {
                                 <Badge
                                   key={skillIndex}
                                   variant="secondary"
-                                  className="mr-1 mb-1">
+                                  className="mr-1 mb-1 bg-blue-100 hover:bg-blue-100 text-blue-800">
                                   {skill}
                                 </Badge>
                               ))}
