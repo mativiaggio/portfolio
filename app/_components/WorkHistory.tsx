@@ -14,7 +14,7 @@ const WorkHistory = () => {
     <div className="pt-6">
       <div>
         <h2 className="text-2xl font-bold mb-6">Work Experience</h2>
-        <div className="space-y-8">
+        <div className="space-y-4">
           {workExperiences.map((experience, index) => (
             <Card
               key={index}
@@ -67,7 +67,7 @@ const WorkHistory = () => {
                                 <Badge
                                   key={skillIndex}
                                   variant="secondary"
-                                  className="mr-1">
+                                  className="mr-1 mb-1">
                                   {skill}
                                 </Badge>
                               ))}

@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
       <div className="flex h-fit max-h-[10vh] items-center justify-between border-b border-main-border-light bg-white px-4 py-2 sm:px-6 md:px-8 lg:px-10">
         <div className="flex gap-4">
           <div className="flex">
-            <Link className="flex items-center justify-center" href="/inicio">
+            <Link className="flex items-center justify-center" href="/">
               <CodeXml className="text-primary h-6 w-6" />
               <span className="ml-2 text-2xl font-bold w-fit">
                 Matías Viaggio
